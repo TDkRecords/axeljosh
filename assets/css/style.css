@@ -1,0 +1,579 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(5, 5, 5);
+}
+
+header {
+    padding-top: 10px;
+    background-color: rgb(153, 145, 0);
+}
+
+body header a {
+    box-sizing: border-box;
+    width: 870px;
+}
+
+.logo img {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: clip-path 1s ease-in-out;
+    clip-path: circle(50%)
+}
+
+.logo img:hover {
+    clip-path: circle(150%);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.Nombre {
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+    color: #fef;
+}
+
+.Subtitle {
+    font-size: 30px;
+}
+
+.cabecera {
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgb(200, 200, 200);
+    border: 3px solid rgb(200, 200, 200);
+}
+
+.page1 {
+    background-color: rgb(130, 130, 130);
+    color: rgb(196, 192, 0);
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.page2 {
+    background-color: rgb(200, 200, 200);
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.page3 {
+    background-color: rgb(200, 200, 200);
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.page4 {
+    background-color: rgb(200, 200, 200);
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.page2:hover {
+    transition: background-color 450ms ease;
+    background-color: rgb(165, 165, 165);
+}
+
+.page3:hover {
+    transition: background-color 450ms ease;
+    background-color: rgb(165, 165, 165);
+}
+
+.page4:hover {
+    transition: background-color 450ms ease;
+    background-color: rgb(165, 165, 165);
+}
+
+.Argument {
+    color: whitesmoke;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+    margin: 0px 9px 0px 9px;
+    text-align: center;
+}
+
+.BgSection {
+    background-color: rgb(153, 145, 0);
+    margin: 30px 0px 5px 0px;
+    font-size: 18px;
+}
+
+.Section {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.Table {
+    width: 99%;
+    margin: 30px 5px 15px 5px;
+    padding: 20px;
+    padding-bottom: 0px;
+    border: 3px solid rgb(200, 200, 200);
+    border-radius: 45px;
+    box-shadow: 3px 3px 16px rgb(158, 252, 255);
+}
+
+.Redes {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.Redes td {
+    text-align: center;
+}
+
+table tr td a img {
+    transition: box-shadow 550ms ease;
+}
+
+table tr td a img:hover {
+    box-shadow: 1px 1px 12px rgb(253, 255, 158);
+}
+
+.Table2 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Contacto td {
+    border: 2px solid white;
+    border-radius: 45px;
+    color: white;
+    text-align: center;
+}
+
+.Correo {
+    text-align: right;
+}
+
+.CorreoHeader {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+
+body footer tr td form input {
+    width: 70%;
+    margin-top: 7px;
+    margin-right: 22px;
+}
+
+body footer tr td form textarea {
+    margin-top: 7px;
+    margin-right: 22px;
+}
+
+#B2 {
+    margin-top: 1px;
+    margin-bottom: 8px;
+    margin-right: 22px;
+}
+
+
+.Correo label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Button_uno {
+    margin-left: 15.5%;
+    margin-bottom: 2px ;
+}
+
+.Img_3 {
+    text-align: center;
+    box-shadow: none;
+    transition: box-shadow 400ms ease-in-out;
+}
+
+.Img_3:hover {
+    box-shadow: 1px 1px 8px green;
+}
+
+.Img_4 {
+    text-align: center;
+    box-shadow: none;
+    transition: box-shadow 400ms ease-in-out;
+}
+
+.Img_4:hover {
+    box-shadow: 1px 1px 8px blue;
+}
+
+.Img_5 {
+    text-align: center;
+    box-shadow: none;
+    transition: box-shadow 400ms ease-in-out;
+}
+
+.Img_5:hover {
+    box-shadow: 1px 1px 8px blueviolet;
+}
+
+.Table2 a {
+    text-decoration: none;
+    color: rgb(196, 192, 0);
+    font-weight: bold;
+    transition: color, text-shadow 450ms ease-out;
+}
+
+.Table2 a:hover {
+    color: skyblue;
+    text-shadow: 1px 1px 8px rgb(158, 252, 255);
+}
+
+.Table2 td {
+    box-shadow: 1px 1px 8px rgb(158, 252, 255);
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(196, 192, 0);
+    transition: color, text-shadow 450ms ease-out;
+}
+
+.links a:hover {
+    color: skyblue;
+    text-shadow: 1px 1px 8px rgb(158, 252, 255);
+}
+
+.links2 a {
+    text-decoration: none;
+    color: rgb(196, 192, 0);
+    transition: color, text-shadow 450ms ease-out; 
+}
+
+.links2 a:hover {
+    color: skyblue;
+    text-shadow: 1px 1px 8px rgb(158, 252, 255);
+}
+
+/* portatil */
+@media screen and (max-width: 1366px) {
+    .Nombre {
+        font-size: 65px;
+    }
+
+    .Subtitle {
+        font-size: 31px;
+    }
+}
+
+/* iPad */
+@media screen and (max-width: 912px) {
+    .Subtitle {
+        display: block;
+        font-weight: 300;
+    }
+
+    .Argument {
+        font-size: 22px;
+    }
+
+    .Section {
+        font-size: 28px;
+    }
+
+    .Table {
+        width: fit-content;
+        width: 98%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    table tr td a img {
+        width: fit-content;
+        width: 125px;
+    }
+
+    .Table2 tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Table2 {
+        width: 70%;
+    }
+
+    .Table2 tr td img {
+        width: fit-content;
+        width: 200px;
+    }
+}
+
+
+/* iPhone/Galaxi */
+@media screen and (max-width: 540px){
+    .Nombre {
+        font-size: 40px;
+    }
+    .Subtitle {
+        display: block;
+        font-weight: 250;
+        font-size: 18px;
+    }
+
+    .page1 {
+        font-size: 18.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .page2 {
+        font-size: 18.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .page3 {
+        font-size: 18.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .page4 {
+        font-size: 18.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Argument {
+        font-size: 17px;
+    }
+
+    .BgSection {
+        margin: 15px 0px 5px 0px;
+    }
+
+    .Section {
+        font-size: 26px;
+    }
+
+    .Table {
+        width: fit-content;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .Redes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Redes td {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Table2 {
+        width: fit-content;
+        width: 98%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .CorreoHeader {
+        font-size: 15px;
+    }
+
+    footer table tr td form input {
+        display: flex;
+        margin-left: 10px;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    #Label_uno {
+        display: flex;
+        justify-content: center;
+    }
+
+    #Label_dos {
+        display: flex;
+        justify-content: center;
+    }
+
+    #Label_tres {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer table tr td form textarea {
+        margin-left: 10px;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .Contacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Contacto td {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;     
+    }
+
+    .CorreoHeader {
+        margin-top: 15px;
+    }
+
+    .Button_uno {
+        margin-bottom: 15px;
+    }
+
+    footer table tr td {
+        margin-bottom: 25px;
+    }
+
+    footer table tr td img {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* Galaxi */
+@media screen and (max-width: 280px) {
+    .logo img {
+        width: 75px;
+    }
+    
+    .Nombre {
+        font-size: 30px;
+    }
+
+    .Subtitle {
+        font-size: 15px;
+    }
+
+    .page1 {
+        font-size: 16.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page2 {
+        font-size: 16.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page3 {
+        font-size: 16.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page4 {
+        font-size: 16.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Argument {
+        font-size: 15px;
+    }
+
+    .Section {
+        font-size: 21px;
+    }
+
+    .CorreoHeader {
+        font-size: 15px;
+    }
+
+    footer table tr td form input {
+        display: flex;
+        margin-left: 10px;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    #Label_uno {
+        display: flex;
+        justify-content: center;
+    }
+
+    #Label_dos {
+        display: flex;
+        justify-content: center;
+    }
+
+    #Label_tres {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer table tr td form textarea {
+        margin-left: 10px;
+        width: 100%;
+        max-width: 90%;
+    }
+}
+
