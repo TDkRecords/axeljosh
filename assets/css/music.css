@@ -181,7 +181,7 @@ body header a {
 }
 
 .Table p strong {
-    color:rgba(255, 255, 0, 0.705);
+    color:rgba(240, 240, 0, 0.856);
 }
 
 .Table tr td div {
@@ -198,7 +198,6 @@ body header a {
     box-shadow: 5px 5px 12px whitesmoke;
 }
 
-
 /* portatil */
 @media screen and (max-width: 1366px) {
     .Nombre {
@@ -210,7 +209,7 @@ body header a {
     }
 
     .Subtitulo3, .Parrafo1, .Sombra {
-        text-align: justify;
+        text-align: center;
         display: inline;
     }
 }
@@ -233,6 +232,11 @@ body header a {
 
 /* iPhone/Galaxi */
 @media screen and (max-width: 540px){
+    
+    .logo img {
+        width: 5.2rem;
+    }
+    
     .Nombre {
         font-size: 40px;
     }
@@ -270,13 +274,37 @@ body header a {
         justify-content: center;
     }
 
-    .Table p {
-        flex-direction: column;
+    .BgSection {
+        margin: 15px 0px 5px 0px;
     }
 
-    .Subtitulo3, .Parrafo1, .Sombra {
-        text-align: justify;
-        display: inline;
+    .TituloSection {
+        font-size: 26px;
+    }
+
+    .Parrafo1, .Sombra{
+        margin: 0 auto;
+        font-size: 17px;
+        display: flex;
+        text-align: center;
+    }
+
+    .Sombra {
+        display: flex;
+        text-align: center;
+    }
+
+    .borde {
+        margin-left: 0;
+    }
+
+    audio {
+        margin-bottom: 7px;
+    }
+
+    .Table p {
+        flex-direction: column;
+        font-size: 15px;
     }
 }
 
@@ -324,8 +352,42 @@ body header a {
         justify-content: center;
     }
 
-    .Subtitulo3, .Parrafo1, .Sombra {
-        text-align: justify;
-        display: inline;
+    .BgSection {
+        margin: 15px 0px 5px 0px;
     }
+
+    .TituloSection {
+        font-size: 26px;
+    }
+
+    .Parrafo1, .Sombra{
+        margin: 0 auto;
+        font-size: 17px;
+        display: flex;
+        text-align: center;
+    }
+
+    .Sombra {
+        display: flex;
+        text-align: center;
+    }
+
+    .borde {
+        margin-left: 0;
+    }
+
+    .Table {
+        max-width: 96%;
+    }
+
+    audio {
+        margin: 0 auto;
+        margin-bottom: 7px;
+        width: 100%;
+    }
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
 }
