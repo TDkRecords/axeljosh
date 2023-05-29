@@ -292,6 +292,10 @@ body footer tr td form textarea {
 
 /* portatil */
 @media screen and (max-width: 1366px) {
+    .logo img {
+        width: 7rem;
+    }
+    
     .Nombre {
         font-size: 65px;
     }
@@ -347,6 +351,11 @@ body footer tr td form textarea {
 
 /* iPhone/Galaxi */
 @media screen and (max-width: 540px){
+    
+    body header img {
+        width: 5rem;
+    }
+    
     .Nombre {
         font-size: 40px;
     }
@@ -496,8 +505,9 @@ body footer tr td form textarea {
 
 /* Galaxi */
 @media screen and (max-width: 280px) {
+    
     .logo img {
-        width: 75px;
+        width: 60px;
     }
     
     .Nombre {
@@ -577,3 +587,7 @@ body footer tr td form textarea {
     }
 }
 
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
