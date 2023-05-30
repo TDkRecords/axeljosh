@@ -212,6 +212,11 @@ body header a {
         text-align: center;
         display: inline;
     }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
 }
 
 
@@ -225,6 +230,11 @@ body header a {
     .Subtitulo3, .Parrafo1, .Sombra {
         text-align: justify;
         display: inline;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
     }
 }
 
@@ -306,6 +316,11 @@ body header a {
         flex-direction: column;
         font-size: 15px;
     }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
 }
 
 
@@ -384,6 +399,11 @@ body header a {
         margin: 0 auto;
         margin-bottom: 7px;
         width: 100%;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
     }
 }
 
